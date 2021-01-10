@@ -1,0 +1,156 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+header .header-icons-conteiner {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #2f343f;
+}
+
+header .header-icons-conteiner .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 20px;
+}
+
+
+
+header .header-icons-conteiner .icons span{
+    color: white;
+    font-size: 35px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-conteiner {
+    margin-left: 50px;
+}
+
+nav .nav-logo-conteiner img{
+    width: 80px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a {
+    color:white ;
+    border-bottom: 1px solid white;
+}
+
+
+.home-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url(/assets/img/richardstallman.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    margin-top: -90px;
+}
+
+.home-main .home-main-conteiner {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 100%;
+    margin-top: 90px;
+}
+
+.home-main-title {
+    display: grid;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+
+}
+
+.home-main-button button{
+    width: 110px;
+    height: 50px;
+    background: #2f343f;
+    display: grid;
+    align-items: center;
+}
+
+.home-main-button button a {
+    font-weight: 700px;
+    font-size: 18px;
+    color: white;
+}
+
+.blogs-main {
+    display: grid;
+    
+}
+
+.blogs-news-container {
+    background-color: #8c93b1;
+    padding: 0px 50px 40px;
+}
+
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-news-img-container{
+    grid-column: 1;
+}
+
+.blogs-news-img-container img {
+    width: 200px;
+}
+
+.blogs-news-info-container {
+    grid-column: 2;
+}
+
+.blogs-news-info-container p {
+    margin-bottom: 35px;
+    
+}
