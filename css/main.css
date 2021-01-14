@@ -2,17 +2,18 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    
 }
 
 a {
     text-decoration: none;
     display: inline;
     color: black;
+}
+
+.grid-container {
+    max-width: 980px;
+    margin: auto;
 }
 
 header {
@@ -134,7 +135,7 @@ nav .profile-link a {
 
 .blogs-main-new {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
     grid-template-rows: 2fr;
 }
 
@@ -143,7 +144,7 @@ nav .profile-link a {
 }
 
 .blogs-news-img-container img {
-    width: 200px;
+    width: 70%;
 }
 
 .blogs-news-info-container {
@@ -152,5 +153,57 @@ nav .profile-link a {
 
 .blogs-news-info-container p {
     margin-bottom: 35px;
-    
+
+}
+
+.home-body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.blogs-post-container {
+    padding: 0 50px 40px;
+}
+
+.blogs-post-container h3 {
+    border-bottom: 1px solid #8c93b1;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blogs-button {
+    border: 1px solid #2f343f;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.blogs-post-container .post-container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 30px;
+}
+
+.blogs-post-container .post-container p {
+    margin-bottom: 35px;
+}
+
+.blogs-post-container .post-container img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #2f343f;
+    border-top: 35px solid #8c93b1;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin-top: 30px;
 }
